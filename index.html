@@ -1,24 +1,33 @@
-<!DOCTYPE html>
-<html> 
-    <head>
-        <title>
-            My First Web Page 
-        </title>
-        <style>
-            img{
-              width: 100px;
-              border-radius: 50px;
-              float: left;
-              margin-right: 10px;
-            }
-            .title{
-              font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-      <img src="images/6790D8E0-514E-4B00-8E03-ACC5534B39B2_4_5005_c.jpeg" alt="nathan's church fit">
-      <p class = "title">Nathan's Church Fit</p>
-      <p>He is keeping his commitment to his parents in college.</p>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>All About Shoes/ShoeScribe</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="m-0">
+    <div class="grid h-32 w-full place-content-center rounded-3xl bg-black mx-2 shadow-2xl">
+      <p class="text-center text-white text-4xl">ShoeScribe</p>
+      <a href="/aboutUs.html" target="_self" class="text-center text-white text-sm">About Us</a>
+    </div>
+    <div>
+        <div class="flex justify-center w-full my-5">
+            <div class="grid grid-col-1 mx-2.5">
+                <a href="/nike.html">
+                    <img src="/public/nikeSwoosh.jpeg" alt="Nike Logo" class="w-64 h-auto rounded-3xl border-2 border-black shadow-2xl">
+                </a>
+            </div>
+            <div class="grid grid-col-1 mx-2.5">
+                <a href="/newBalance.html">
+                    <img src="/public/NewBalanceLogo.png" class="w-64 h-auto rounded-3xl border-2 border-black shadow-2xl">
+                </a>
+            </div>
+            <div>
+              <a href="/adidas.html" class="grid grid-col-1 mx-2.5">
+                <img src="/public/AdidasLogo.png" class="w-64 h-auto rounded-3xl border-2 border-black shadow-2xl">
+              </a>
+            </div>
+        </div>
+    </div>
+  </body>
 </html>
